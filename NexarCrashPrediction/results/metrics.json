@@ -1,0 +1,40 @@
+{
+  "validation": {
+    "count": 300,
+    "accuracy": 0.75,
+    "binary_f1": 0.7524752475247525,
+    "macro_f1": 0.74997499749975,
+    "confusion_matrix": [
+      [
+        111,
+        39
+      ],
+      [
+        36,
+        114
+      ]
+    ],
+    "loss": 0.5555952962239583
+  },
+  "public": {
+    "count": 667,
+    "accuracy": 0.6896551724137931,
+    "binary_f1": 0.6986899563318777,
+    "macro_f1": 0.6893758900670208,
+    "confusion_matrix": [
+      [
+        220,
+        113
+      ],
+      [
+        94,
+        240
+      ]
+    ],
+    "loss": 0.5948843204456827
+  },
+  "private_evaluated": false,
+  "decision": "argmax",
+  "selected_seed": 42,
+  "selected_epoch": 7
+}
